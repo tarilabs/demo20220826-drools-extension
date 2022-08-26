@@ -1,0 +1,10 @@
+package org.drools.extdemo;
+
+unit HomeAutomationUnit;
+
+rule R1
+when
+    /lights[ $l : name ]
+then
+    System.out.println( $l );
+end
